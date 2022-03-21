@@ -1,28 +1,28 @@
 /* CSS Project 0 Document */
 
-body{
+body {
     background-color: orange ;
 }
 
-p{ 
+p { 
     display: external;
     color: blue;
     margin: 35px;
 }
 
-h1{
+h1 {
     color: white;
     background-color: red; 
     font-size: 24pt;
     margin: 10px 5px 15px;
 }
 
-span.flag{
+span.flag {
     flex-wrap: nowrap;
     justify-content: space-between;
     justify-content: flex-end;
 }
-span.cloud{
+span.cloud {
     flex-wrap: nowrap;
     justify-content: space-between;
     justify-content: flex-end;
@@ -48,6 +48,6 @@ ul.product_categories{
 }
 
 h1.pageheader{
-    justify-content: center
+    justify-content: center;
 }
 
