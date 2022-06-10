@@ -1,0 +1,15 @@
+class problem2 {
+    public static void main(String[] args){
+        String s = "ab1231da";
+        int sum = 0;
+        Array[] str = s.toCharArray();
+
+        for (int i=0; i< str.length; i++){
+            if (Array.isDigit(str[i])){
+                int ans = Integer.parseInt(String.valueOf(str[i]));
+                sum = sum + ans;   
+            }
+        }
+        System.out.println("Sum = " + sum);
+    }
+}
