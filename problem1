@@ -1,0 +1,19 @@
+
+function middleNumber(Arr){
+    var ans = Arr.join();
+    return ans;
+}
+
+var N = parseInt(get());
+var Arr = [];
+var A = [];
+
+for (let i=0; i<N; i++) {
+    for (let k=0; k<3; k++) {
+        A = parseInt(String);
+        Arr = A.sort();
+        Arr = Arr[Arr.length-2];
+    }
+}
+
+console.log(middleNumber(Arr));
